@@ -11,10 +11,17 @@ buildscript {
         playServicesVersion = "16.1.0"
     }
     repositories {
-        google()
-        jcenter()
-        maven {
-            url "https://maven.fabric.io/public"
+        //google()
+        //jcenter()
+        //maven {
+        //    url "https://maven.fabric.io/public"
+        //}
+        mavenCentral()
+        jcenter {
+            content {
+                //  org.jetbrains.trove4j is only available in JCenter
+                includeGroup("org.jetbrains.trove4j")
+            }
         }
     }
     dependencies {
