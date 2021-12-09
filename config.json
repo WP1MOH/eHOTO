@@ -43,6 +43,9 @@
         },
         "appCenterOTA": {
             "enabled": false
+        },
+        "nativeOTA": {
+            "enabled": false
         }
     },
     "permissions": [
@@ -92,7 +95,7 @@
             "required": true
         }
     ],
-    "appVersion": "1.0.5",
-    "buildNumber": 102,
+    "appVersion": "1.0.6",
+    "buildNumber": 103,
     "runtimeUrl": "https://moh2-accp.apps.ap-2a.mendixcloud.com/"
 }
