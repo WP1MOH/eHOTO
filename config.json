@@ -17,7 +17,15 @@
     "capabilities": {
         "deepLink": {
             "value": "",
-            "enabled": false
+            "enabled": false,
+            "android": {
+                "webLinks": [
+                    {
+                        "host": "",
+                        "path": ""
+                    }
+                ]
+            }
         },
         "maps": {
             "value": "",
